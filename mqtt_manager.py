@@ -25,6 +25,7 @@ def connect():
     print("Connected to Adafruit IO MQTT Broker")
     return client
 
+
 def send_data(client, feed, value):
     try:
         topic = bytes(feed, 'utf-8')
