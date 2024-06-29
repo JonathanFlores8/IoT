@@ -163,7 +163,7 @@ Adafruit IO balances ease of use, functionality, and scalability for IoT project
 
 ### The Code
 
-[The Source Code](https://github.com/JonathanFlores8/IoT-Summer)
+[The Source Code](https://github.com/JonathanFlores8/IoT)
 
 #### Main Code Snippet
 
