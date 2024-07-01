@@ -69,27 +69,24 @@ The code is uploaded to the Raspberry Pi Pico WH using the MicroPico plugin in V
 1. **Install Python**:
    - Download and install Python from [python.org](https://www.python.org/).
 
-2. **Install Node.js**:
-   - Download and install Node.js from [nodejs.org](https://nodejs.org/).
-
-3. **Install Visual Studio Code**:
+2. **Install Visual Studio Code**:
    - Download and install VSCode from [code.visualstudio.com](https://code.visualstudio.com/).
    - Follow the installation instructions for your operating system.
 
-4. **Install MicroPico**:
+3. **Install MicroPico**:
    - Open VSCode and go to the Extensions view by clicking on the Extensions icon in the Activity Bar or pressing `Ctrl+Shift+X`.
    - Search for "MicroPico" and click "Install" to add the extension to VSCode.
 
-5. **Set Up MicroPico**:
+4. **Set Up MicroPico**:
    - After installing MicroPico, connect your Raspberry Pi Pico WH to your computer.
 
-6. **Flash MicroPython Firmware**:
+5. **Flash MicroPython Firmware**:
    - Download the latest MicroPython firmware for Raspberry Pi Pico WH from the [MicroPython website](https://micropython.org/download/rp2-pico-w/).
    - Put the Pico WH into bootloader mode by holding down the BOOTSEL button while connecting it to your computer via USB (A white small button).
    - The Pico WH should appear as a USB mass storage device.
    - Copy the downloaded firmware file to the Pico WH. It will automatically flash the firmware and reboot.
 
-7. **Write and Upload Code**:
+6. **Write and Upload Code**:
    - Write your MicroPython code in a new file in VSCode.
    - Use the MicroPico extension to sync and upload your code to the Pico WH by right-clicking on a file and upload it.
 
