@@ -54,15 +54,15 @@ I bought my equipment from [Electrokit](https://www.electrokit.com/en/)
 
 #### Chosen IDE
 
-For this project, the chosen Integrated Development Environment (IDE) is Visual Studio Code (VSCode) with the Pymakr plugin. VSCode is a popular, versatile code editor that supports various programming languages and offers many extensions to enhance development workflows.
+For this project, the chosen Integrated Development Environment (IDE) is Visual Studio Code (VSCode) with the MicroPico plugin. VSCode is a popular, versatile code editor that supports various programming languages and offers many extensions to enhance development workflows.
 
 #### How the Code is Uploaded (Workflow)
 
-The code is uploaded to the Raspberry Pi Pico W using the Pymakr plugin in VSCode. Pymakr simplifies the process of writing and deploying MicroPython code to microcontrollers. Here's a step-by-step workflow for uploading the code:
+The code is uploaded to the Raspberry Pi Pico WH using the MicroPico plugin in VSCode. MicroPico simplifies the process of writing and deploying MicroPython code to microcontrollers. Here's a step-by-step workflow for uploading the code:
 
 1. **Write Code in VSCode**: Write the MicroPython code in VSCode using the MicroPico.
-2. **Connect Pico W to Computer**: Connect the Raspberry Pi Pico WH to the computer using a micro USB cable.
-3. **Flash the Code**: Right click on a file to upload it to the Pico WH.
+2. **Connect Pico WH to Computer**: Connect the Raspberry Pi Pico WH to the computer using a micro USB cable.
+3. **Flash the Code**: Right click on a file and press "Upload current file to pico" to upload it to the Pico WH.
 4. **Run Code**: Right click again when you are on main.py and press "Run the current file on pico".
 #### Steps for Setting Up Your Computer
 
