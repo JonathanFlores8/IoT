@@ -60,12 +60,10 @@ For this project, the chosen Integrated Development Environment (IDE) is Visual 
 
 The code is uploaded to the Raspberry Pi Pico W using the Pymakr plugin in VSCode. Pymakr simplifies the process of writing and deploying MicroPython code to microcontrollers. Here's a step-by-step workflow for uploading the code:
 
-1. **Write Code in VSCode**: Write the MicroPython code in VSCode using the Pymakr extension.
-2. **Connect Pico W to Computer**: Connect the Raspberry Pi Pico W to the computer using a micro USB cable.
-3. **Open Pymakr Terminal**: Open the Pymakr terminal in VSCode.
-4. **Sync Code**: Use the "Sync" button in the Pymakr terminal to upload the code from the local project directory to the Pico W.
-5. **Run Code**: The code will automatically run on the Pico W after being uploaded.
-
+1. **Write Code in VSCode**: Write the MicroPython code in VSCode using the MicroPico.
+2. **Connect Pico W to Computer**: Connect the Raspberry Pi Pico WH to the computer using a micro USB cable.
+3. **Flash the Code**: Right click on a file to upload it to the Pico WH.
+4. **Run Code**: Right click again when you are on main.py and press "Run the current file on pico".
 #### Steps for Setting Up Your Computer
 
 1. **Install Python**:
@@ -82,7 +80,7 @@ The code is uploaded to the Raspberry Pi Pico W using the Pymakr plugin in VSCod
    - Open VSCode and go to the Extensions view by clicking on the Extensions icon in the Activity Bar or pressing `Ctrl+Shift+X`.
    - Search for "MicroPico" and click "Install" to add the extension to VSCode.
 
-5. **Set Up Pymakr**:
+5. **Set Up MicroPico**:
    - After installing MicroPico, connect your Raspberry Pi Pico WH to your computer.
 
 6. **Flash MicroPython Firmware**:
@@ -113,6 +111,7 @@ Components Needed:
     Raspberry Pi Pico WH
     DHT11 Temperature and Humidity Sensor
     Jumper Wires
+    Power Supply (USB Cable)
 
 Wiring Steps:
 

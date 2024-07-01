@@ -25,6 +25,6 @@ while not wlan.isconnected() and attempts < max_attempts:
 
 if wlan.isconnected():
     print("Connected to Wi-Fi!")
-    print("Network configuration:", wlan.ifconfig())
+    print("Network configuration:", "Secret")
 else:
     print("Failed to connect to Wi-Fi")
